@@ -1,5 +1,6 @@
 # check-url-text
-Crawl a web page and send a mobile notification (Using Yo-app) if a criterion is met. 
+Crawl a web page and send a mobile notification (Using Yo-app) if a criterion is met.
+An example use case is if you want to poll Amazon, and be notified if price changes. 
 
 The script crawls the URLs given in `config.py`.
 It then searches through all `<divs>` on the page, and tries to find a
